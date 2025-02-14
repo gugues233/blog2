@@ -1,0 +1,194 @@
+2025-02-14T22:18:29.877+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:29.881+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:29.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:29.884+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:29.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:29.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:29.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:29.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:29.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:29.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:29.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:29.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:31.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:31.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:31.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:31.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:31.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:31.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:31.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:31.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:31.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:31.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:31.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:31.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:31.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:31.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:31.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:31.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:31.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:31.904+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:31.904+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:31.904+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:31.905+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:31.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:31.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:31.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:34.869+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:34.869+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:34.870+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:34.870+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:34.870+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:34.871+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:34.871+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:34.871+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:34.872+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:34.872+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:34.872+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:34.872+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:36.880+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:36.880+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:36.882+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:36.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:36.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:36.884+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:36.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:36.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:36.886+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:36.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:36.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:36.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:36.896+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:36.896+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:36.897+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:36.898+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:36.898+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:36.899+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:36.899+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:36.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:36.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:36.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:36.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:36.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:39.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:39.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:39.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:39.886+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:39.886+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:39.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:39.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:39.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:39.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:39.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:39.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:39.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:41.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:41.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:41.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:41.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:41.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:41.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:41.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:41.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:41.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:41.894+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:41.894+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:41.894+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-2] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:41.899+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:41.899+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:41.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:41.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:41.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:41.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:41.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:41.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:41.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:41.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:41.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:41.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:44.875+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:44.875+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:44.876+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:44.877+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:44.877+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:44.878+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:44.878+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:44.878+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:44.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:44.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:44.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:44.880+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:46.882+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:46.883+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:46.884+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:46.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:46.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:46.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:46.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:46.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:46.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:46.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:46.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:46.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-3] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:46.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:46.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:46.904+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:46.905+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:46.905+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:46.905+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:46.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:46.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:46.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:46.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:46.906+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:46.907+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:18:49.882+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:18:49.882+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:18:49.884+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:18:49.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:18:49.885+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:18:49.886+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:18:49.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:49.887+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:18:49.888+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:18:49.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:18:49.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:18:49.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:19:33.874+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:19:33.875+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:19:33.877+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:19:33.878+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:19:33.878+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:19:33.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:19:33.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.879+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:19:33.880+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:19:33.881+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.881+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:19:33.881+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:19:33.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:19:33.889+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:19:33.890+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:19:33.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:19:33.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:19:33.891+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:19:33.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.892+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:19:33.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:19:33.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.893+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:19:33.894+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-5] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:19:33.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2025-02-14T22:19:33.900+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2025-02-14T22:19:33.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2025-02-14T22:19:33.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : ==>  Preparing: SELECT id,sender_id,receiver_id,message,create_by,create_time,update_by,update_time,remark FROM chat
+2025-02-14T22:19:33.901+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : ==> Parameters: 
+2025-02-14T22:19:33.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.ChatMapper.selectList       : <==      Total: 7
+2025-02-14T22:19:33.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.902+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 2(Long), 1(Long), 4(Long), 3(Long), 1(Long)
+2025-02-14T22:19:33.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 4
+2025-02-14T22:19:33.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? )
+2025-02-14T22:19:33.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 2(Long), 2(Long), 1(Long), 2(Long), 2(Long), 1(Long), 2(Long)
+2025-02-14T22:19:33.903+08:00 DEBUG 6036 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 2
+2025-02-14T22:20:24.049+08:00  INFO 6036 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2025-02-14T22:20:24.055+08:00  INFO 6036 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

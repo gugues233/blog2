@@ -1,0 +1,79 @@
+2024-07-15T19:32:55.554+08:00  INFO 9432 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-07-15T19:32:55.565+08:00  INFO 9432 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2024-07-15T22:59:55.773+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.springboot.SpringbootApplication     : Starting SpringbootApplication using Java 17.0.11 with PID 10404 (C:\Users\林林\OneDrive\桌面\博客系统\springboot\target\classes started by 林林 in C:\Users\林林\OneDrive\桌面\博客系统)
+2024-07-15T22:59:55.775+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.springboot.SpringbootApplication     : The following 1 profile is active: "dev"
+2024-07-15T22:59:55.815+08:00  INFO 10404 --- [博客系统] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-07-15T22:59:55.816+08:00  INFO 10404 --- [博客系统] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-07-15T22:59:56.498+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.m.a.MybatisPlusAutoConfiguration     : Searching for mappers annotated with @Mapper
+2024-07-15T22:59:56.498+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.m.a.MybatisPlusAutoConfiguration     : Using auto-configuration base package 'org.example.springboot'
+2024-07-15T22:59:57.113+08:00  INFO 10404 --- [博客系统] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9091 (http)
+2024-07-15T22:59:57.123+08:00  INFO 10404 --- [博客系统] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-15T22:59:57.124+08:00  INFO 10404 --- [博客系统] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-15T22:59:57.166+08:00  INFO 10404 --- [博客系统] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-15T22:59:57.166+08:00  INFO 10404 --- [博客系统] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1349 ms
+2024-07-15T22:59:57.240+08:00  INFO 10404 --- [博客系统] [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2024-07-15T22:59:57.319+08:00  INFO 10404 --- [博客系统] [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2024-07-15T22:59:57.421+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.m.e.s.MybatisSqlSessionFactoryBean   : Registered plugin: 'MybatisPlusInterceptor{interceptors=[com.baomidou.mybatisplus.extension.plugins.inner.OptimisticLockerInnerInterceptor@1d1a1d6c, PaginationInnerInterceptor(logger=org.apache.ibatis.logging.slf4j.Slf4jImpl@55ed8dfe, overflow=false, maxLimit=null, dbType=null, dialect=null, optimizeJoin=true)]}'
+2024-07-15T22:59:57.422+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.m.e.s.MybatisSqlSessionFactoryBean   : Property 'mapperLocations' was not specified.
+2024-07-15T22:59:57.549+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.mybatisplus.core.toolkit.Sequence    : Get /192.168.30.1 network interface 
+2024-07-15T22:59:57.561+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.mybatisplus.core.toolkit.Sequence    : Get network interface info: name:eth6 (VMware Virtual Ethernet Adapter for VMnet1)
+2024-07-15T22:59:57.568+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.mybatisplus.core.toolkit.Sequence    : Initialization Sequence datacenterId:4 workerId:5
+2024-07-15T22:59:58.572+08:00 DEBUG 10404 --- [博客系统] [restartedMain] c.b.m.a.MybatisPlusAutoConfiguration     : Not found configuration for registering mapper bean using @MapperScan, MapperFactoryBean and MapperScannerConfigurer.
+2024-07-15T22:59:58.702+08:00  INFO 10404 --- [博客系统] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-07-15T22:59:58.738+08:00  INFO 10404 --- [博客系统] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9091 (http) with context path '/'
+2024-07-15T22:59:58.739+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.s.common.config.SwaggerConfig        : -----------------------------------------------------
+2024-07-15T22:59:58.740+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.s.common.config.SwaggerConfig        : -	本地地址：http://10.17.247.88:9091
+2024-07-15T22:59:58.740+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.s.common.config.SwaggerConfig        : -	Swagger文档：http://10.17.247.88:9091/doc.html
+2024-07-15T22:59:58.740+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.s.common.config.SwaggerConfig        : -----------------------------------------------------
+2024-07-15T22:59:58.750+08:00  INFO 10404 --- [博客系统] [restartedMain] o.e.springboot.SpringbootApplication     : Started SpringbootApplication in 3.367 seconds (process running for 4.077)
+2024-07-15T23:01:03.245+08:00  INFO 10404 --- [博客系统] [http-nio-9091-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-15T23:01:03.246+08:00  INFO 10404 --- [博客系统] [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-15T23:01:03.247+08:00  INFO 10404 --- [博客系统] [http-nio-9091-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-15T23:01:03.531+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.CommentMapper.selectList    : ==>  Preparing: SELECT id,blog_id,user_id,content,create_by,create_time,update_by,update_time,remark FROM comment
+2024-07-15T23:01:03.531+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.BlogMapper.selectList       : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog
+2024-07-15T23:01:03.544+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.BlogMapper.selectList       : ==> Parameters: 
+2024-07-15T23:01:03.544+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.CommentMapper.selectList    : ==> Parameters: 
+2024-07-15T23:01:03.590+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.BlogMapper.selectList       : <==      Total: 9
+2024-07-15T23:01:03.592+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.CommentMapper.selectList    : <==      Total: 8
+2024-07-15T23:01:03.598+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:03.598+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.BlogMapper.selectBatchIds   : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:03.598+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 2(Long), 1(Long), 2(Long), 1(Long), 1(Long), 1(Long), 1(Long), 3(Long)
+2024-07-15T23:01:03.598+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.BlogMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 1(Long), 1(Long), 2(Long), 6(Long), 1(Long), 6(Long)
+2024-07-15T23:01:03.601+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.BlogMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:03.602+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:03.603+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 1(Long), 1(Long), 1(Long), 1(Long), 2(Long), 3(Long)
+2024-07-15T23:01:03.607+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-4] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:03.608+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-1] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:15.727+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.BlogMapper.selectList       : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog WHERE (id = ?) LIMIT 1
+2024-07-15T23:01:15.727+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.BlogMapper.selectList       : ==> Parameters: 5(Long)
+2024-07-15T23:01:15.731+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.BlogMapper.selectList       : <==      Total: 1
+2024-07-15T23:01:15.733+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2024-07-15T23:01:15.734+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2024-07-15T23:01:15.735+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-7] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2024-07-15T23:01:18.461+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2024-07-15T23:01:18.463+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2024-07-15T23:01:18.464+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-8] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2024-07-15T23:01:18.487+08:00  WARN 10404 --- [博客系统] [http-nio-9091-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.example.springboot.common.exception.CustomException]
+2024-07-15T23:01:18.508+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.BlogMapper.selectList       : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog
+2024-07-15T23:01:18.509+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.BlogMapper.selectList       : ==> Parameters: 
+2024-07-15T23:01:18.508+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.CommentMapper.selectList    : ==>  Preparing: SELECT id,blog_id,user_id,content,create_by,create_time,update_by,update_time,remark FROM comment
+2024-07-15T23:01:18.509+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.CommentMapper.selectList    : ==> Parameters: 
+2024-07-15T23:01:18.514+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.CommentMapper.selectList    : <==      Total: 8
+2024-07-15T23:01:18.516+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.BlogMapper.selectBatchIds   : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:18.517+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.BlogMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 1(Long), 1(Long), 2(Long), 6(Long), 1(Long), 6(Long)
+2024-07-15T23:01:18.519+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.BlogMapper.selectList       : <==      Total: 9
+2024-07-15T23:01:18.520+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:18.520+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 2(Long), 1(Long), 2(Long), 1(Long), 1(Long), 1(Long), 1(Long), 3(Long)
+2024-07-15T23:01:18.522+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.BlogMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:18.523+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-10] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:18.525+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id IN ( ? , ? , ? , ? , ? , ? , ? , ? )
+2024-07-15T23:01:18.525+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : ==> Parameters: 1(Long), 1(Long), 1(Long), 1(Long), 1(Long), 1(Long), 2(Long), 3(Long)
+2024-07-15T23:01:18.528+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-9] o.e.s.mapper.UserMapper.selectBatchIds   : <==      Total: 3
+2024-07-15T23:01:36.160+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.BlogMapper.selectList       : ==>  Preparing: SELECT id,title,content,user_id,create_by,create_time,update_by,update_time,remark FROM blog WHERE (id = ?) LIMIT 1
+2024-07-15T23:01:36.161+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.BlogMapper.selectList       : ==> Parameters: 6(Long)
+2024-07-15T23:01:36.163+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.BlogMapper.selectList       : <==      Total: 1
+2024-07-15T23:01:36.164+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==>  Preparing: SELECT id,username,password,name,avatar,status,role,phone,email,balance,create_by,create_time,update_by,update_time,remark FROM user WHERE id=?
+2024-07-15T23:01:36.164+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : ==> Parameters: 1(Long)
+2024-07-15T23:01:36.167+08:00 DEBUG 10404 --- [博客系统] [http-nio-9091-exec-6] o.e.s.mapper.UserMapper.selectById       : <==      Total: 1
+2024-07-15T23:02:26.588+08:00  INFO 10404 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closing ...
+2024-07-15T23:02:26.594+08:00  INFO 10404 --- [博客系统] [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
