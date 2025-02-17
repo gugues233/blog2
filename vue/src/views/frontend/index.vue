@@ -10,7 +10,8 @@
         <el-menu-item index="#" @click.native="handleLogout">退出登录</el-menu-item>
       </el-sub-menu>
       <el-menu-item v-else index="/login">登录</el-menu-item>
-      <el-menu-item index="/index">首页</el-menu-item>
+      <el-menu-item index="/image-recognition">图像识别</el-menu-item>
+      <el-menu-item index="/index">讨论</el-menu-item>
       <el-menu-item :index="`/main/${user.id}`">个人主页</el-menu-item>
       <div style="flex-grow: 1"/>
       <el-menu-item index="/blog/null">发布文章</el-menu-item>

@@ -69,8 +69,10 @@ const routes = [
                 meta: {name: '统计信息', roles: ['0'], icon: 'Stopwatch', hidden: false},
                 component: () => import('@/views/backend/statistics/index.vue')
             }
+
         ]
     },
+    //TODO 把最开始显示的页面换成图像识别 现在是首页 而且名字也要换
     {
         path: '/',
         name: 'home',
@@ -81,7 +83,7 @@ const routes = [
             {
                 path: '/index',
                 name: 'index',
-                meta: {name: '首页', roles: [], icon: 'Stopwatch', hidden: false},
+                meta: {name: '讨论', roles: [], icon: 'Stopwatch', hidden: false},
                 component: () => import('@/views/frontend/index/index.vue')
             },
             {
@@ -107,6 +109,13 @@ const routes = [
                 name: 'center',
                 meta: {name: '个人中心', roles: [], icon: 'Stopwatch', hidden: false},
                 component: () => import('@/views/backend/user/center/index.vue')
+            },
+            // 添加新的图像识别路由
+            {
+                path: '/image-recognition',
+                name: 'image-recognition',
+                meta: {name: '图像识别', roles: [], icon: 'Stopwatch', hidden: false},
+                component: () => import('@/views/frontend/index/ImageRecognition.vue')
             }
         ]
     },
