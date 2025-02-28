@@ -72,19 +72,18 @@ const routes = [
 
         ]
     },
-    //TODO 把最开始显示的页面换成图像识别 现在是首页 而且名字也要换
     {
         path: '/',
         name: 'home',
         meta: {name: '首页', roles: ['0', '1'], icon: 'Home', hidden: true},
-        redirect: '/index',
+        redirect: '/image-recognition',
         component: () => import('@/views/frontend/index.vue'),
         children: [
             {
-                path: '/index',
-                name: 'index',
+                path: '/discuss',
+                name: 'discuss',
                 meta: {name: '讨论', roles: [], icon: 'Stopwatch', hidden: false},
-                component: () => import('@/views/frontend/index/index.vue')
+                component: () => import('@/views/frontend/index/discuss.vue')
             },
             {
                 path: '/detail/:id',
