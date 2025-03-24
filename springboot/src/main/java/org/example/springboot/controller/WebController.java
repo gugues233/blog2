@@ -1,6 +1,7 @@
 package org.example.springboot.controller;
 
 import jakarta.annotation.Resource;
+import lombok.extern.slf4j.Slf4j;
 import org.example.springboot.common.BaseContext;
 import org.example.springboot.domain.Result;
 import org.example.springboot.domain.dto.PasswordDto;
@@ -9,18 +10,22 @@ import org.example.springboot.domain.model.LoginBody;
 import org.example.springboot.service.IUserService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import org.example.springboot.service.ImageRecognitionService;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 /**
  * <p>
  * 网站服务前端控制器
  * </p>
  */
+@Slf4j
 @RestController
 @Tag(name = " 网站服务", description = " 网站服务")
 public class WebController {
     @Resource
     private IUserService userService;
+
 
     /**
      * PC端登录
@@ -74,4 +79,6 @@ public class WebController {
         user.setToken(account.getToken());
         return Result.success(user);
     }
+
+
 }

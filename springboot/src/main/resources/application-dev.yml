@@ -5,7 +5,7 @@ spring:
     url: jdbc:mysql://localhost:3306/博客系统?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false&serverTimezone=GMT%2b8&allowPublicKeyRetrieval=true
 
 upload:
-  path: C:\Users\林林\OneDrive\桌面\博客系统\files
+  path: C:\Users\林林\OneDrive\桌面\这是文件夹\自己\博客总\博客系统\files
 
 knife4j:
   enable: true

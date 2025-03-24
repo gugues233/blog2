@@ -21,6 +21,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .excludePathPatterns("/login")
                 .excludePathPatterns("/register")
                 .excludePathPatterns("/files/**")
+                .excludePathPatterns("/image/recognition")
                 .excludePathPatterns("/static/**")
                 .excludePathPatterns("/doc.html", "/favicon.ico", "/webjars/**", "/swagger-resources", "/v3/api-docs/**");
     }
